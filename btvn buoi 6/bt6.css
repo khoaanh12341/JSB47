@@ -1,0 +1,12 @@
+.box{
+    width: 250px;
+    min-height: 350px;
+    border: 1px red solid;
+}
+.ten{
+    text-align: center;
+
+}
+.box img{
+    margin-left: 40px;
+}

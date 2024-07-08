@@ -1,0 +1,46 @@
+h1{
+    position: relative;
+    top: 100px;
+}
+.boxx{
+    width: 400px;
+    height: 400px;
+    background-color: bisque;
+    position: relative;
+}
+.box1{
+    width: 100px;
+    height: 100px;
+    background-color: aqua;
+}
+.box2{
+    width: 100px;
+    height: 100px;
+    background-color: blue;
+    right: 0px;
+
+}
+.box3{
+    width: 100px;
+    height: 100px;
+    background-color: red;
+    bottom: 0px;
+}
+.box4{
+    width: 100px;
+    height: 100px;
+    background-color: yellow;
+    bottom: 0px;
+    right: 0px;
+}
+.box5{  
+    width: 100px;
+    height: 100px;
+    background-color: green;
+    transform: translate(-50%, -50%);
+    left: 50%;
+    top: 50%;
+}
+.bos{
+    position: absolute;
+}

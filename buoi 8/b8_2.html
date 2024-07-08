@@ -1,0 +1,48 @@
+<!DOCTYPE html>
+<html>
+<head>
+<style>
+.flex-container {
+    display: flex;
+    background-color: blue;
+    width: 300px;
+    transition: all 2s;
+}
+
+.flex-container > div {
+  background-color: #f1f1f1;
+  width: 30px;
+  margin: 5px;
+  text-align: center;
+  line-height: 30px;
+  font-size: 10px;
+}
+
+.div:hover ~ .flex-container{
+    background-color: red;
+    margin-left: 500px;
+}
+
+</style>
+</head>
+<body>
+<h1>Flexible Boxes</h1>
+
+<div>
+    <button class="div">BUTTON</button>
+
+    <div class="flex-container">
+        <div>1</div>
+        <div>2</div>
+        <div>3</div>  
+        <div>4</div>
+        <div>5</div>
+        <div>6</div>  
+        <div>7</div>
+        <div>8</div>
+    </div>
+    
+</div>
+
+</body>
+</html>

@@ -1,0 +1,74 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=\, initial-scale=1.0" />
+    <title>Position</title>
+    <style>
+      h1 {
+        /* margin-top: 100px; */
+        /* position: relative; */
+        position: absolute;
+        top: 0px;
+        left: 50%;
+        transform: translateX(-50%);
+      }
+
+      /* Khi ta dùng position thì các thuộc tình top, left, right, bottom */
+
+      /* position: relative
+        - Di chuyển thẻ và ko làm ảnh hưởng đế các thẻ khác
+        - Di chuyển 1 khối mà k làm ảnh hưởng đến dòng chảy của trang
+      */
+
+      /* 
+        position: absolute
+        - Tách khối đấy ra dòng chảy của trang web
+        - Những thẻ sau nó sẽ thế vào chỗ trống nó để lại
+      */
+
+      .container {
+        width: 600px;
+        height: 500px;
+        background-color: antiquewhite;
+        position: relative;
+      }
+
+      .box {
+        width: 100px;
+        height: 100px;
+      }
+
+      .box1 {
+        position: absolute;
+        right: 0px;
+        top: 0;
+        background-color: red;
+      }
+
+      .box2 {
+        background-color: blue;
+      }
+
+      .box3 {
+        background-color: green;
+      }
+    </style>
+  </head>
+  <body>
+    <p>ksjdnfksdnfjksndf</p>
+    <h1>Nguyễn Danh Phương</h1>
+    <ul>
+      <li>relative</li>
+      <li>absolute</li>
+      <li>lsjdfljnsdf</li>
+    </ul>
+
+    <div class="container">
+      <p>Hello các bạn</p>
+      <div class="box1 box">1</div>
+      <div class="box2 box">2</div>
+      <div class="box3 box">2</div>
+    </div>
+  </body>
+</html>

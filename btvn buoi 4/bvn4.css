@@ -1,0 +1,56 @@
+.button1{
+    padding: 10px 65px;
+    background-color: forestgreen;
+    border-style: none;
+    border-radius: 3px;
+}
+button:hover{
+    cursor: pointer;
+    
+}
+input{
+    border-style: none;
+    border-radius: 3px;
+    background-color: darkgray;
+    padding-top: 10px;
+    padding-bottom: 10px;
+
+}
+p{
+    margin-left: 40px;
+    margin-top: 10px;
+}
+.anh1{
+    width: 40px;
+    margin-left: 45px;
+
+}
+.anh2{
+    width: 20px;
+    margin-bottom: 10px;
+}
+a{
+    display: inline-block;
+    margin-top: -10px;
+}
+.benphai{
+    background-color:forestgreen ;
+    width: 250px;
+    color: white;
+    min-height: 250px;
+}
+.benphai .button2{
+    background-color:rgb(22, 98, 22) ;
+    border-style: none;
+    padding-bottom: 10px;
+    padding-top: 10px;
+    border-radius: 5px;
+}
+
+.bentrai h1{
+    width: 100px;
+}
+.box{
+    display: flex;
+    justify-content:center
+}
