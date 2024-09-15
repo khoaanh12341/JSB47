@@ -1,0 +1,235 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Order</title>
+    <style>
+        .food img{
+            width: 100%;
+            height: 150px;
+        }
+        .food{
+            box-shadow: -1px 2px 13px 0px rgba(0,0,0,0.68);
+-webkit-box-shadow: -1px 2px 13px 0px rgba(0,0,0,0.68);
+-moz-box-shadow: -1px 2px 13px 0px rgba(0,0,0,0.68);
+            width: 210px;
+            min-height: 285px;
+            display: inline-block ;
+        }
+        .food span{
+            font-size: 10px;
+        }
+        .food h3:hover{
+            background-color: rgb(0, 0, 0);
+            cursor: pointer;
+            color: white;
+            
+        }
+        .food h3{
+            text-align: center;
+            background-color: gray;
+            padding: 5px 10px;
+            border-radius: 100px;
+            margin-bottom: 10px;
+            margin-left: 10px;
+            margin-right: 10px;
+            transition: all 3s;
+            
+        }
+        .giohang{
+    position: absolute;
+    background-color: rgb(255, 255, 255);
+    width:650px ;
+    min-height: 700px;
+    right:0px ;
+    top: 0px;
+}
+#toggle:checked ~ #message {
+    display: block;
+}
+#message {
+    display: none;
+    margin-top: 10px;
+    font-size: 20px;
+    color: blue;
+}
+.button {
+    display: inline-block;
+    padding: 10px 20px;
+    background-color: #4CAF50;
+    color: white;
+    cursor: pointer;
+    border-radius: 5px;
+}
+    </style>
+</head>
+<body>
+    <img src="https://cdn.pizzahut.vn/images/Web_V3/Homepage/bd3555a.png" style="width: 180px;" alt="">
+    <br>
+    <br>
+    <br>
+    <div class="thanhdoan">
+        <a href="b10.html" style="background-color: white;padding: 20px 50px 20px 50px;">Pizza</a>
+        <span style="background-color: red;padding: 20px 50px 20px 50px;">Gà rán</span>
+        <a href="do_uong.html" style="background-color: white;padding: 20px 50px 20px 50px;">Thức uống</a>
+    </div>
+    <br>
+    <br>
+    <div class="food">
+        <img src="https://static.kfcvietnam.com.vn/images/items/lg/1-Fried-Chicken.jpg?v=41vXxg" alt="">
+        <br>
+        <span style="margin-left: 5px;">1 Miếng Gà Rán</span>
+        <span style="margin-left: 95px;">35.000₫</span>
+        <br>
+        <span style="margin-left: 5px;
+        font-size: 8px;">1 Miếng Gà Giòn Cay/Gà Truyền Thống/Gà Giòn Không Cay</span>
+        <br>
+        <br>
+        <h3>Add</h3>
+    </div>
+    <div class="food">
+        <img src="https://cdn.pizzahut.vn/images/Web_V3/Products_MenuTool/Ga_Gion_Karaage_400x275.jpg" alt="">
+        <br>
+        <span style="margin-left: 5px;">Cánh Gà Giòn</span>
+        <span style="margin-left: 95px;">119.000₫</span>
+        <br>
+        <span style="margin-left: 5px;
+        font-size: 8px;">Cánh gà tẩm bột Karaage chiên giòn
+
+</span>
+        <br>
+        <br>
+        <h3>Add</h3>
+    </div>
+    <div class="food">
+        <img src="https://cdn.pizzahut.vn/images/Web_V3/Products_MenuTool/Ga_Pho_Mai.jpg" alt="">
+        <br>
+        <span style="margin-left: 5px;">Gà Phủ Phô Mai</span>
+        <span style="margin-left: 95px;">129.000₫</span>
+        <br>
+        <span style="margin-left: 5px;
+        font-size: 8px;">Gà giòn không xương phủ phô mai</span>
+        <br>
+        <br>
+        <h3>Add</h3>
+    </div>
+    <div class="food">
+        <img src="https://cdn.pizzahut.vn/images/Web_V3/Products_MenuTool/Ga_Xot_Cay_Korean.jpg" alt="">
+        <br>
+        <span style="margin-left: 5px;">Cánh Gà Cay</span>
+        <span style="margin-left: 95px;">129.000₫</span>
+        <br>
+        <span style="margin-left: 5px;
+        font-size: 8px;">Cánh gà chiên giòn phủ xốt Hàn Quốc trứ danh</span>
+        <br>
+        <br>
+        <h3>Add</h3>
+    </div>
+    <br>
+    <br>
+    <div class="food">
+        <img src="https://static.kfcvietnam.com.vn/images/items/lg/3-Fried-Chicken.jpg?v=L5Brx4" alt="">
+        <br>
+        <span style="margin-left: 5px;">2 Miếng Gà Rán</span>
+        <span style="margin-left: 95px;">70.000₫</span>
+        <br>
+        <span style="margin-left: 5px;
+        font-size: 8px;">2 Miếng Gà Giòn Cay/Gà Truyền Thống/Gà Giòn Không Cay</span>
+        <br>
+        <br>
+        <h3>Add</h3>
+    </div>
+    <div class="food">
+        <img src="https://static.kfcvietnam.com.vn/images/items/lg/10-TENDERS.jpg?v=L5Brx4" alt="">
+        <br>
+        <span style="margin-left: 5px;">Gà rán Tenders</span>
+        <span style="margin-left: 95px;">129.000₫</span>
+        <br>
+        <span style="margin-left: 5px;
+        font-size: 8px;">10 Gà rán Tenders nguyên bản</span>
+        <br>
+        <br>
+        <h3>Add</h3>
+    </div>
+    <div class="food">
+        <img src="https://static.kfcvietnam.com.vn/images/items/lg/POP-L.jpg?v=L5Brx4" alt="">
+        <br>
+        <span style="margin-left: 5px;">Gà viên (lớn)</span>
+        <span style="margin-left: 95px;">64.000₫</span>
+        <br>
+        <span style="margin-left: 5px;
+        font-size: 8px;">Gà Viên (Lớn)</span>
+        <br>
+        <br>
+        <h3>Add</h3>
+    </div>
+    <div class="food">
+        <img src="https://static.kfcvietnam.com.vn/images/items/lg/5-HW.jpg?v=L5Brx4" alt="">
+        <br>
+        <span style="margin-left: 5px;">5 Cánh Gà Rán</span>
+        <span style="margin-left: 95px;">85.000₫</span>
+        <br>
+        <span style="margin-left: 5px;
+        font-size: 8px;">5 Cánh Gà Giòn Cay/Gà Truyền Thống/Gà Giòn Không Cay</span>
+        <br>
+        <br>
+        <h3>Add</h3>
+    </div>
+    <div class="giohang">
+        <p style="font-size: 30px;
+        text-align: center;">Giỏ hàng</p>
+        <br>
+        <fieldset>
+            <legend>Chọn sản phẩm:</legend>
+
+            <label for="product1">
+                <input type="checkbox" id="product1" name="product" value="Sản phẩm 1"> 1 Miếng Gà Rán 
+            </label><br>
+
+            <label for="product2">
+                <input type="checkbox" id="product2" name="product" value="Sản phẩm 2"> Cánh Gà Giòn 
+            </label><br>
+
+            <label for="product3">
+                <input type="checkbox" id="product3" name="product" value="Sản phẩm 3"> Gà Phủ Phô Mai 
+            </label><br>
+
+            <label for="product4">
+                <input type="checkbox" id="product1" name="product" value="Sản phẩm 1"> Cánh Gà Cay  
+            </label><br>
+
+            <label for="product5">
+                <input type="checkbox" id="product1" name="product" value="Sản phẩm 1"> 2 Miếng Gà Rán 
+            </label><br>
+
+            <label for="product6">
+                <input type="checkbox" id="product1" name="product" value="Sản phẩm 1"> Gà rán Tenders 
+            </label><br>
+
+            <label for="product7">
+                <input type="checkbox" id="product1" name="product" value="Sản phẩm 1"> Gà viên (lớn) 
+            </label><br>
+
+            <label for="product8">
+                <input type="checkbox" id="product1" name="product" value="Sản phẩm 1"> 5 Cánh Gà Rán 
+            </label><br>
+        </fieldset>
+
+        <br>
+                
+    <input type="checkbox" id="toggle" style="display:none;">
+    
+    <label class="button" for="toggle">Đặt hàng</label>
+
+    <div style="position: absolute;" id="message">Đã đặt hàng thành công</div>
+    <br>
+    <br>
+    <br>
+    <iframe
+        width="500px"
+        height="300px"
+        src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d3919.6427630776855!2d106.68808317459414!3d10.762622258964925!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x31752ee81b8cc0b1%3A0xb1037dfde512e56b!2sB%C6%A1n%20X%C6%B0a%20Cafe!5e0!3m2!1svi!2s!4v1693394982098!5m2!1svi!2s"></iframe>
+
+</body>
+</html>
